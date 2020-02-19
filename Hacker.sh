@@ -25,5 +25,4 @@ echo ""
 echo "กรุณาเปิดเว็บ https://remotedesktop.google.com/headless"
 echo "เพิ่ออณุญาติ"
 clear
-fi
-done
+
