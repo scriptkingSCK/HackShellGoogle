@@ -5,8 +5,13 @@ echo -e "\e[1;34m ง๊วฟฟ \e[0m"
 echo -e "\e[1;32m SCK \e[0m"
 echo ""
 wget https://dl.google.com/linux/direct/chrome-remote-desktop_current_amd64.deb
+echo ""
+echo ""
 sudo apt update
+echo ""
+echo ""
 sudo dpkg --install chrome-remote-desktop_current_amd64.deb
+echo ""
 sudo apt install --assume-yes --fix-broken
 sudo DEBIAN_FRONTEND=noninteractive \
     apt install --assume-yes xfce4 desktop-base
